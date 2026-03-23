@@ -1,0 +1,39 @@
+# Documents — never commit personal files
+docs/
+
+# Database and vector store — contains your data
+data/
+
+# Python environment
+.venv/
+
+# Mac system files
+.DS_Store
+**/.DS_Store
+
+# Environment variables — API keys
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+logs/
+*.log
+
+# Sensitive file types — safety net
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.tif
+*.db
+
+# Ollama models — too large
+*.gguf
+*.bin
